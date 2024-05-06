@@ -1,0 +1,6 @@
+.shop--card--section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem;
+    gap: 1rem;
+}

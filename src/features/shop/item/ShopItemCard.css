@@ -1,0 +1,12 @@
+.shop--item--card {
+}
+
+.shop--item--card__footer {
+    justify-content: space-between;
+}
+
+.shop--item--card__image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
