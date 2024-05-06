@@ -1,4 +1,4 @@
-import { ShopItem } from "./features/shop/item/ShopItem";
+import { ShopItem } from "../item/ShopItem";
 
 export interface CartContextState {
     cart: ShopItem[];

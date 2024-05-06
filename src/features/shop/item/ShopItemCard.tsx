@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { ShopItem } from "./ShopItem";
-import { CartContext } from "../../../CartContext";
-import { CartContextState } from "../../../CartContextData";
+import { CartContext } from "../cart/CartContext";
+import { CartContextState } from "../cart/CartContextData";
 
 interface Props {
     item: ShopItem;

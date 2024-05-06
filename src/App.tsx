@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { ShopItem } from "./features/shop/item/ShopItem";
 import ShopItemCard from "./features/shop/item/ShopItemCard";
-import { CartContext } from "./CartContext";
+import { CartContext } from "./features/shop/cart/CartContext";
 import ShopCart from "./features/shop/cart/ShopCart";
 
 function App() {
