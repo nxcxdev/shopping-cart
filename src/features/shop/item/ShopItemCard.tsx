@@ -22,9 +22,9 @@ export default function ShopItemCard(props: Props) {
             <img src={props.item.image} alt={props.item.name} />
             <p>{props.item.description}</p>
             <button onClick={handleAddToFavorites}>
-                {isFavorite ? "Quitar de favoritos" : "Añadir a favoritos"}
+                {isFavorite ? "Remove from favorites" : "Add to favorites"}
             </button>
-            <button onClick={() => handleAddToCart()}></button>
+            <button onClick={() => handleAddToCart()}>Add to cart</button>
         </article>
     );
 }

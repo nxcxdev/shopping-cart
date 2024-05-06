@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import { ShopItem } from "./features/shop/item/ShopItem";
 import ShopItemCard from "./features/shop/item/ShopItemCard";
